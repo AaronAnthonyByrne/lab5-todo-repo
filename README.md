@@ -1,23 +1,15 @@
-# lab3-final
- 
-Sample "Hello, World" Python Flask Application and MYSQL
+# lab5
+The application should offer the following routes:
+http://external-ip/ 
+Return an index.html page
+ http://external-ip/list 
+Enable users to list all tasks 
+http://external-ip/add 
+Enables users to add a new task to the todo list
+http://external-ip/delete
+delete a task 
+http://external-ip/update 
+update the task content
 
-This is the home page for the HelloWorld Web application.
-
-To prove that they work, you can execute either of the following links:
-
-To view main index page vist the route http://35.195.252.125:5000
-
-To pass your name to index.html http://35.195.252.125:5000/myfullname
-
-To view all recored visit the endpoint at list route http://35.195.252.125:5000/list
-
-To insert a new record http://35.195.252.125:5000/insert/myname/myemail
-
-To update a record based on the email http://35.195.252.125:5000/update/thenewname/email
-
-To delete a record http://35.195.252.125:5000/delete/name
-
-The data should apeare below
 
  
